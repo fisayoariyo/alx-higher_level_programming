@@ -1,0 +1,6 @@
+# Ignore swap files
+../0x02-python-import_modules/.100-my_calculator.py.swp
+
+# Ignore Python cache directories
+../0x07-python-test_driven_development/_pycache__/
+
