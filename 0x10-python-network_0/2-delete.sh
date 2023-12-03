@@ -1,3 +1,3 @@
 #!/bin/bash
-# display all HTTP methods the server will accept using curl.
-curl -sI "$1" | grep "Allow" | cut -d " " -f 2-
+# To send a DELETE request to an URL with curl and also display the body of the response
+curl -sX DELETE "$1"
